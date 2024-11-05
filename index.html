@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Rocket Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        <div id="startScreen">
+            <h1>Rocket Adventure</h1>
+            <button id="startButton">Start Game</button>
+        </div>
+        <div id="gameOverScreen" class="hidden">
+            <h2>Game Over</h2>
+            <p>Your Score: <span id="finalScore"></span></p>
+            <button id="restartButton">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
